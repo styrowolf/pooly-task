@@ -49,8 +49,11 @@ class Route {
     ),
   ];
 
-  @override
-  String toString() {
-    return origin + "-" + destination + " / " + time.toString();
+  String displayWithTime() {
+    return display() + " / " + time.toString();
+  }
+
+  String display() {
+    return origin + "-" + destination;
   }
 }

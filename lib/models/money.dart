@@ -10,3 +10,4 @@ enum Currency {
   TRY,
   EUR
 }
+

@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>application-identifier</key>
-	<string>X6BUZ4L5QC.com.example.poolyTask</string>
+	<string>X6BUZ4L5QC.com.styro.poolyTask</string>
 	<key>com.apple.developer.team-identifier</key>
 	<string>X6BUZ4L5QC</string>
 	<key>get-task-allow</key>
 	<true/>
 	<key>keychain-access-groups</key>
 	<array>
-		<string>X6BUZ4L5QC.com.example.poolyTask</string>
+		<string>X6BUZ4L5QC.com.styro.poolyTask</string>
 	</array>
 </dict>
 </plist>
