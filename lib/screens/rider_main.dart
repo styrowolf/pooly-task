@@ -27,8 +27,8 @@ class _RiderMainScreenState extends ConsumerState<RiderMainScreen> {
 
   @override
   Widget build(BuildContext context) {
-    Set<Marker> markers = ref.watch(markersProvider);
-    Set<Polyline> polylines = ref.watch(polylinesProvider);
+    final Set<Marker> markers = ref.watch(markersProvider);
+    final Set<Polyline> polylines = ref.watch(polylinesProvider);
     return Scaffold(
       body: Column(
         children: [
